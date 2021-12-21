@@ -25,6 +25,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
         System.out.println("3333333333");
         System.out.println("test-1");
         System.out.println("master-1");
+        System.out.println("master-push1");
         return new BCryptPasswordEncoder();
     }
 }
